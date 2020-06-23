@@ -1,0 +1,48 @@
+body{
+    background-image: url(./images/800-coffee.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    color: rgb(14, 184, 184);
+}
+.menu{
+    padding: 100px 0 0 50px;
+    font-family: sans-serif;
+}
+.house{
+    display: flex;
+    flex-direction: row;
+}
+#h1, #h2{
+    text-decoration: underline;
+}
+#h2{
+    margin-left: 60%;
+}
+.coffee{
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+}
+.cafe{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.cafe > div{
+    border: 1px solid rgb(14, 184, 184);
+    width: 130px;
+    height: 110px;
+    margin: 0 0 10% 12%;
+}
+p{
+    text-align: center;
+}
+.cafe > div:hover{
+    background-color: seashell;
+    color: black;
+    opacity: 0.6;
+}
+.snacks > ul > li{
+    padding: 10px;
+}
