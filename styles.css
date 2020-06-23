@@ -1,16 +1,31 @@
+body{
+    background-image: url(./images/Background\ Image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 60% 30%;
+    background-position: right top;
+}
 nav{
-    display: flex;
-    flex-direction: row;
+    float: right;
 }
 nav > ul > li{
     display: inline-block;
-    text-align: left;
     padding: 20px;
-    list-style-type: none;
 }
 nav > ul > li > a{
     text-decoration: none;
     padding: 20px;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+#active{
+    background-color: whitesmoke;
+    color: rgb(73, 11, 11);
+    padding: 20px;
+    border-radius: 5px;
+}
+nav > ul > li > a:hover{
+    background-color: whitesmoke;
+    color: rgb(78, 9, 9);
+    border-radius: 5px;
 }
