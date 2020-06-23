@@ -1,8 +1,9 @@
 body{
     background-image: url(./images/Background\ Image1.jpg);
     background-repeat: no-repeat;
-    background-size: 60% 30%;
+    background-size: 57% 58%;
     background-position: right top;
+    background-color: black;
 }
 nav{
     float: right;
@@ -19,8 +20,8 @@ nav > ul > li > a{
     color: aliceblue;
 }
 #active{
-    background-color: whitesmoke;
-    color: rgb(73, 11, 11);
+    border: 2px solid whitesmoke;
+    color: rgb(14, 184, 184);
     padding: 20px;
     border-radius: 5px;
 }
@@ -28,4 +29,60 @@ nav > ul > li > a:hover{
     background-color: whitesmoke;
     color: rgb(78, 9, 9);
     border-radius: 5px;
+}
+#image1{
+    height: 100px;
+    width: 100px;
+    padding-right: 20px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 0 20px;
+}
+.paragraph > p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(14, 184, 184);
+}
+.heading{
+    text-align: center;
+    border: 3px solid ;
+    background-color: whitesmoke;
+    margin: 0 30% 0 30%;
+    font-family: sans-serif;
+    text-decoration: underline;
+    margin-top: 150px;
+    padding: 10px;
+}
+.heading > h1{
+    color: rgb(53, 39, 39);
+    font-size: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.footer > .coffee >img{
+    height: 250px;
+    width: 450px;
+    border: 5px solid rgb(53, 39, 39);
+}
+.footer > .icons > ul > li > img{
+    height: 30px;
+    width: 30px;
+} 
+.footer > .icons > ul >li{
+    list-style-type: none;
+    margin-left: 400px;
+    margin-top: 5px;
+    color: rgb(14, 184, 184);
+    font-family: sans-serif;
+}
+.icons{
+    padding-top: 50px;
 }
