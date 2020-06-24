@@ -1,7 +1,7 @@
 .container{
     background-image: url(./images/Background\ Image1.jpg);
     background-repeat: no-repeat;
-    background-size: 57% 58%;
+    background-size: 57% 61%;
     background-position: right top;
     background-color: black;
 }
@@ -80,7 +80,7 @@ nav > ul > li > a:hover{
     list-style-type: none;
     margin-left: 400px;
     margin-top: 5px;
-    color: rgb(14, 184, 184);
+    color: whitesmoke;
     font-family: sans-serif;
 }
 .icons{
