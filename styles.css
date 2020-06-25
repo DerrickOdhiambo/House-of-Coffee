@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: 57% 61%;
     background-position: right top;
-    background-color: black;
+    background-color: rgb(196, 192, 192);
 }
 nav{
     float: right;
@@ -33,6 +33,7 @@ nav > ul > li > a:hover{
 #image1{
     height: 100px;
     width: 100px;
+    border-radius: 5px;
     padding-right: 20px;
 }
 .paragraph{
@@ -53,6 +54,7 @@ nav > ul > li > a:hover{
     text-align: center;
     border: 3px solid ;
     background-color: whitesmoke;
+    border-radius: 10px;
     margin: 0 30% 0 30%;
     font-family: sans-serif;
     text-decoration: underline;
@@ -63,20 +65,21 @@ nav > ul > li > a:hover{
     color: rgb(53, 39, 39);
     font-size: 40px;
 }
-.footer{
+.bottom{
     display: flex;
     flex-direction: row;
 }
-.footer > .coffee >img{
+.bottom > .coffee >img{
     height: 250px;
     width: 450px;
-    border: 5px solid rgb(53, 39, 39);
+    border-radius: 10px;
+    border: 5px solid black;
 }
-.footer > .icons > ul > li > img{
+.bottom > .icons > ul > li > img{
     height: 30px;
     width: 30px;
 } 
-.footer > .icons > ul >li{
+.bottom > .icons > ul >li{
     list-style-type: none;
     margin-left: 400px;
     margin-top: 5px;
