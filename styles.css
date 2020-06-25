@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .container{
     background-image: url(./images/Background\ Image1.jpg);
     background-repeat: no-repeat;
@@ -97,8 +101,7 @@ nav > ul > li > a:hover{
 .footer{
     position: relative;
     font-family: sans-serif;
-    border-top: white;
-    background-color: rgb(2, 68, 68);
+    background-color: rgb(26, 13, 5);
     color: rgb(194, 188, 188);
 }
 .footer-content{
@@ -154,5 +157,8 @@ nav > ul > li > a:hover{
     margin-left: 10px;
     color: whitesmoke;
     transition: .3s;
+}
+h3{
+    color: rgb(139, 65, 11);
 }
 
