@@ -55,6 +55,7 @@ nav > ul > li > a:hover{
     text-align: center;
     padding-top: 25px;
     color: rgb(14, 184, 184);
+    font-family: 'Norican', cursive;
 }
 .heading{
     text-align: center;
@@ -101,7 +102,7 @@ nav > ul > li > a:hover{
 .footer{
     position: relative;
     font-family: sans-serif;
-    background-color: rgb(20, 9, 1);
+    background-color: rgb(22, 9, 0);
     color: rgb(194, 188, 188);
 }
 .footer-content{
