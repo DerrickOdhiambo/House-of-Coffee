@@ -101,7 +101,6 @@ nav > ul > li > a:hover{
 .footer{
     position: relative;
     font-family: sans-serif;
-    border-top: white;
     background-color: rgb(20, 9, 1);
     color: rgb(194, 188, 188);
 }
