@@ -5,7 +5,7 @@
 .container{
     background-image: url(./images/Background\ Image1.jpg);
     background-repeat: no-repeat;
-    background-size: 57% 44%;
+    background-size: 57% 41%;
     background-position: right top;
     background-color: black;
 }
@@ -61,6 +61,7 @@ nav > ul > li > a:hover{
     text-align: center;
     border: 3px solid ;
     background-color: whitesmoke;
+    opacity: 0.9;
     border-radius: 10px;
     margin: 0 30% 0 30%;
     font-family: sans-serif;
@@ -104,6 +105,7 @@ nav > ul > li > a:hover{
     font-family: sans-serif;
     background-color: rgb(22, 9, 0);
     color: rgb(194, 188, 188);
+    margin-top: 100px;
 }
 .footer-content{
     display: flex;
@@ -151,7 +153,6 @@ nav > ul > li > a:hover{
     color: rgb(194, 188, 188);
     font-size: large;
     text-decoration: none;
-    margin-bottom: 10px;
     transition: .3s;
 }
 #links:hover{
@@ -159,6 +160,6 @@ nav > ul > li > a:hover{
     color: whitesmoke;
     transition: .3s;
 }
-h3{
+.footer-section > h3{
     color: saddlebrown;
 }
